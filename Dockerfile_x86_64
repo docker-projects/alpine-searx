@@ -31,7 +31,7 @@ RUN set -xe \
 #
 COPY root/ /
 #
-VOLUME /data
+VOLUME /usr/local/searx/
 #
 EXPOSE 8888
 #
